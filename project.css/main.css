@@ -1,0 +1,463 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+
+/* responsive screen */
+
+
+/* for header */
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+ul>li {
+    display: block;
+    padding: .5em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li a:hover {
+    border-bottom: 1px solid orange;
+}
+
+
+/* for card */
+
+.main {
+    box-sizing: border-box;
+    /* padding-top: 40px;
+    padding-left: .5em; */
+    padding: 60px .1em 0 .5em;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.side-card {
+    /* height: 300px; */
+    box-sizing: border-box;
+    padding-top: 100px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.main-card {
+    margin-right: .5em;
+    margin-left: .5em;
+    background-color: #fff;
+}
+
+.avator {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.side-profile .nickName {
+    margin-top: 28px;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.side-profile .introduction {
+    margin-top: 18px;
+    padding: 0 .1rem;
+    line-height: 1.8em;
+    font-size: 16px;
+    color: #a8a8a8;
+    text-align: center;
+}
+
+.side-profile .userinfo-c {
+    padding: 24px 24px 0px 24px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.side-profile .contact {
+    cursor: pointer;
+    margin-top: .5em;
+    padding: .5em;
+    text-align: center;
+    border: 1px solid #308EFF;
+    color: #308EFF;
+}
+
+.side-profile .contact a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* 右半边css */
+
+.main-card {
+    border: 1px solid #eee;
+}
+
+.education-experience-history {
+    display: block;
+    padding-top: .5em;
+    padding-left: .5em;
+}
+
+.education-experience-span {
+    margin-left: 15%;
+}
+
+.main-intro .self-intro {
+    border-bottom: 10px solid #eee;
+}
+
+.main-education-experience .education-experience-detail {
+    border-bottom: 10px solid #eee;
+}
+
+.amin-personal .personal-prefer-detail {
+    border-bottom: 10px solid #eee;
+}
+
+.header-css-share {
+    margin-block-end: 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: .5em;
+    /* background-color: lawngreen; */
+    line-height: 1.5em;
+    border-bottom: 1.5px solid #eee;
+}
+
+.body-css-share {
+    padding: 12px 20px 20px;
+}
+
+
+/* Register page css */
+
+.main-register {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.main-font {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+form>fieldset {
+    border: none;
+}
+
+.user-info-form .user-info {
+    position: relative;
+    margin-right: 0;
+    width: 60%;
+    padding: 1em;
+    line-height: 15px;
+    margin-top: 1.5em;
+}
+
+#buttonSet {
+    margin-top: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #308EFF;
+    border: none;
+    padding: 1em 3em;
+}
+
+
+/* wrongMesage display */
+
+#Message {
+    position: relative;
+    margin-left: 40%;
+    padding: .5em 1em;
+    width: 20%;
+    color: white;
+    border-radius: .5em;
+    margin-top: 1rem;
+}
+
+
+/* home page css */
+
+.side-card.category {
+    text-align: center;
+    height: 590px;
+}
+
+.category-layout {
+    margin-top: 80px;
+    cursor: pointer;
+    border: 2px solid #308EFF;
+    /* color: white; */
+    /* background-color: #308EFF; */
+    box-sizing: border-box;
+    padding: .5em;
+    font-weight: 400;
+}
+
+.category-layout:hover {
+    background-color: #308EFF;
+}
+
+
+/* home page css */
+
+.main-container {
+    height: 500px;
+    padding: 80px 10px;
+    background-image: url(../image/home-b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-hello-container {
+    margin-left: 4%;
+    padding: 1em 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: inline-block; */
+    border-radius: 2em;
+}
+
+.account-button {
+    margin-top: 1em !important;
+    padding: 1.5em !important;
+    font-size: 18px !important;
+    background-color: #b23256 !important;
+    color: #eee !important;
+    border: none !important;
+    border-radius: .9em !important;
+}
+
+.account-button:hover {
+    cursor: pointer !important;
+    background-color: #308EFF !important;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        background-image: url(../image/home-background.jpg);
+    }
+}
+
+form fieldset label {
+    display: block;
+    color: #b23256;
+    font-size: large;
+    font-weight: 700;
+    margin-top: .5em;
+}
+
+form fieldset input {
+    background-color: rgba(238, 238, 238, 0);
+}
+
+.adjacent-main-container {
+    border-top: 3em solid #a8a8a8;
+}
+
+.peopel-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.peopel-wrapper li span {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.peopel-wrapper .thumbnail img {
+    border: 2px solid hotpink;
+}
+
+
+/* all people page */
+
+.main-card.main-card-dispaly {
+    text-align: center;
+}
+
+.main-client {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1em;
+}
+
+.main-client-info p {
+    margin: auto;
+    position: relative;
+    top: -50px;
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #b23256;
+    padding: .5em;
+    width: 100px;
+    display: block;
+}
+
+.main-client-info button {
+    font-size: larger;
+    padding: .5em;
+    background-color: #b23256;
+    border: none;
+    cursor: pointer;
+    width: 191px;
+    position: relative;
+    top: -43px;
+}
+
+.main-client-info button:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+form.form-serarch {
+    display: flex;
+    justify-content: center;
+}
+
+form.form-serarch input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+    max-width: 200px;
+}
+
+form.form-serarch button {
+    padding: 10px;
+    background-color: #b23256;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.main-search {
+    margin-top: 5em;
+    display: grid;
+    justify-content: center;
+}
+
+.main-search .main-search-sex {
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    font-size: 20px;
+    background-color: #b23256;
+}
+
+.main-search .main-search-sex:hover {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.side-card.crad-layout {
+    text-align: center;
+}
+
+
+/* userCenter page */
+
+.main.container {
+    box-sizing: border-box;
+    width: 100%;
+    grid-template-columns: none;
+    padding-top: 60px;
+}
+
+.user-main-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.self-photo-left {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    padding-left: 1em;
+}
+
+.self-info-right {
+    margin-left: 2em
+}
+
+.self-info-right h4 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #a8a8a8;
+}
+
+.slef-infro-right-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.slef-infro-right-bottom span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .slef-infro-right-bottom span {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        margin-top: 10%;
+    }
+    .self-info-right h4 {
+        text-align: start;
+    }
+}
+
+.main-rest {
+    margin: 5em 2em 0em 2em;
+}
+
+.main-slef-intro-detail {
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+}
+
+.main-self-preference {
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
